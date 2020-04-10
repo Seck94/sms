@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url('img-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header{
+    border:1px solid black;
+    height: 80px;
+    background-color: rgb(1, 1, 26);
+}
+.header h1 {
+    text-align: center;
+    color: rgb(214, 27, 27);
+    margin-top: -70px;
+}
+.icone img{
+    
+    height: 79px;
+    width: 80px;
+    margin-top: 2px;
+   
+}
+
+.container {
+    
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 12%;
+    background-color: rgb(236, 233, 233);
+}
+.nav
+{
+    background-color: rgb(4, 195, 243);
+    height: 90px;
+}
+.nav h1{
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+
+/*les inputs*/
+.inp {
+  
+    width:500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+   
+
+}
+.inp input {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    margin-top: 20px;
+   width:440px;
+   height: 15px;
+   font-size: 20px;
+   cursor: pointer;
+   border-radius: 6px;
+}
+.inp  img {
+    height: 30px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 35px;
+}
+.inp label a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgb(166, 170, 170);
+    font-size: 18px;
+}
+.tet input {
+    background-color: rgb(4, 195, 243);
+    padding: 0px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+}
+ 
+
+
