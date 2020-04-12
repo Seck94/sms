@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url('img-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    border:1px solid black;
+    height: 80px;
+    background-color: rgb(1, 1, 26);
+}
+.header h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: -70px;
+}
+.icone img{
+    
+    height: 79px;
+    width: 80px;
+    margin-top: 2px;
+   
+}
+
+.container {
+    
+    border-radius: 10px;
+    width: 1250px;
+    height: 600px;
+    margin: auto;
+    margin-top: 1.5%;
+    background-color: rgb(236, 233, 233);
+}
+
+.inputs{
+    background-color: #fff;
+    border-radius:8px;
+    width: 800px;
+    height: 450px;
+    float: right;
+    margin-right: 3%;
+    margin-top: -32.5%;
+}
+.parametre{
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    color:rgb(32, 221, 228);
+}
+.image img{
+    border: 5px solid rgb(32, 221, 228);
+    border-radius: 50%;
+    width: 210px;
+    height: 230px;
+    float: right;
+    margin-right: 3%;
+    
+}
+
+
+/*la partie Gauche des inputs */
+.input{
+    border: 1px solid black;
+    width: 750px;
+    height: 330px;
+    margin: auto;
+    margin-top: -2%;
+    margin-left: 2%;
+}
+.momine{
+
+    width: 700px;
+    height: 150px;
+    border-radius:6px;
+    
+}
+.offre p {
+  
+    width: 90px;
+    margin-top: -70px;
+    margin-left: 12%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+
+
+/*l'image qui se situe à gauche*/
+.Gauche 
+{
+    border: 1px solid black;
+    width: 320px;
+    height: 340px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+/*l'image radius*/
+.imd{
+    border: 1px solid rgb(209, 7, 7);
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.liste {
+    background-color: #fff;
+    border: 1px solid rgb(235, 54, 54);
+    width: 320px;
+    height: 210px;
+    margin-left: -1px;
+    margin-top: 4%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.liste li {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.liste a {
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 25px;
+    text-transform: capitalize;
+    height:50px;
+}
+.liste li:hover{
+    background-color: rgb(236, 229, 229);
+   
+}
+.liste img {
+    float: right;
+    margin-top: -50px;
+    width: 40px;
+}
+.nav {
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 80px;
+    background-color:rgb(8, 168, 173)  ;
+}
+.nav h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:22px;
+    line-height:80px;
+}
+.deconnexio input{
+    background-color:rgb(32, 221, 228)  ;
+    width: 120px;
+    height: 40px;
+    float: right; 
+    margin-top: -70px;
+    margin-right: 30px;
+    font-size:15px;
+    font-weight: 900;
+}
